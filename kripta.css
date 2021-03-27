@@ -1,0 +1,57 @@
+button{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+.coin{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+}
+.current{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+}
+.cost{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+table{
+    width: 50%;
+    border: 1px solid black;
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+tr:first-child{
+    border: none;
+    color: white;
+    background-color: black;
+}
+tr:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+/*tr:nth-child(odd){
+    background-color: white;
+}*/
+td{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.active{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    border: 1px solid red;
+}
